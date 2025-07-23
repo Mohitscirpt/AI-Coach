@@ -1,0 +1,36 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #000000;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+button, a {
+  transition: all 0.3s ease-in-out;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Utilities */
+.text-indigo-400 {
+  color: #818CF8;
+}
+
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #6366f1, #a855f7);
+}
+
+/* Add more reusable classes as needed */
