@@ -62,7 +62,7 @@ const Header = () => {
 
         {/* Show user icon if signed in */}
         <SignedIn>
-          <UserButton
+         <UserButton
   appearance={{
     baseTheme: "dark",
     variables: {
@@ -79,26 +79,41 @@ const Header = () => {
         color: "#ffffff",
       },
       userButtonPopoverActionButton: {
-        color: "#ffffff", // Set default text color of actions
+        color: "#ffffff",
+        ':hover': {
+          color: "#ffffff",
+          backgroundColor: "#1f1f1f", // optional subtle hover bg
+        },
+        ':active': {
+          color: "#ffffff",
+          backgroundColor: "#1f1f1f",
+        },
       },
       userButtonPopoverActionButtonText: {
-        color: "#ffffff", // Specifically target the text inside buttons
+        color: "#ffffff",
+        ':hover': {
+          color: "#ffffff",
+        },
+        ':active': {
+          color: "#ffffff",
+        },
       },
       userButtonPopoverActionButtonIcon: {
-        color: "#ffffff", // Icon color
+        color: "#ffffff",
       },
       userButtonPopoverFooter: {
-        color: "#ffffff", // Development mode color
+        color: "#ffffff",
       },
       userPreviewMainIdentifier: {
-        color: "#ffffff", // Email
+        color: "#ffffff",
       },
       userPreviewSecondaryIdentifier: {
-        color: "#a3a3a3", // Name
+        color: "#a3a3a3",
       },
     },
   }}
 />
+
 
         </SignedIn>
       </div>
