@@ -6,6 +6,7 @@ import Promotions from './components/Promotions';
 import Footer from './components/Footer';
 import ResumeSection from './components/ResumeSection';
 import Header from './components/Header';
+import MockInterview from './components/Mock-interview';  
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             }
           />
           <Route path="/resume" element={<ResumeSection />} />
+          <Route path="/mock-interview"element={<MockInterview/>}/>
         </Routes>
       </div>
     </Router>

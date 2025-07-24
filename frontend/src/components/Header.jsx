@@ -88,10 +88,10 @@ const Header = () => {
         color: "#ffffff", // Icon color
       },
       userButtonPopoverFooter: {
-        color: "#ffb703", // Development mode color
+        color: "#ffffff", // Development mode color
       },
       userPreviewMainIdentifier: {
-        color: "#facc15", // Email
+        color: "#ffffff", // Email
       },
       userPreviewSecondaryIdentifier: {
         color: "#a3a3a3", // Name
