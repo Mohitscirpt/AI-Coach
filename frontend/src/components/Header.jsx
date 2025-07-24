@@ -74,9 +74,28 @@ const Header = () => {
       colorInputBorder: "#444",
     },
     elements: {
-      userButtonPopoverActionButton: "text-white hover:bg-gray-700",
-      userButtonPopoverFooter: "text-white",
-      userButtonPopoverCard: "bg-[#1f1f1f] border border-gray-700",
+      userButtonPopoverCard: {
+        backgroundColor: "#0f0f0f",
+        color: "#ffffff",
+      },
+      userButtonPopoverActionButton: {
+        color: "#ffffff", // Set default text color of actions
+      },
+      userButtonPopoverActionButtonText: {
+        color: "#ffffff", // Specifically target the text inside buttons
+      },
+      userButtonPopoverActionButtonIcon: {
+        color: "#ffffff", // Icon color
+      },
+      userButtonPopoverFooter: {
+        color: "#ffb703", // Development mode color
+      },
+      userPreviewMainIdentifier: {
+        color: "#facc15", // Email
+      },
+      userPreviewSecondaryIdentifier: {
+        color: "#a3a3a3", // Name
+      },
     },
   }}
 />
